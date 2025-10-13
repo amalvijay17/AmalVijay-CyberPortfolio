@@ -1,0 +1,50 @@
+# Basic Commands
+
+- `cd`
+- `cd ..` (Up one directory)
+- `cd ~` (Go to home directory)
+- `mkdir`
+- `touch`
+- `nano`
+- `cat`
+- `ls` (List directory contents)
+- `ls -l` (long listing)
+- `ls -a` (list hidden files)
+- `ls -r` (list in reverse name)
+- `ls -t` (list new files first)
+- `ls -rt` (list in reverse time - older first)
+- `less <file>`
+- Arrow keys for Up or Down, `PgUp` or `PgDn` keys
+- `/` (Use for searching in `less`), `q` to quit
+- `passwd` - Change password
+- `pwd` - Print working directory
+- `cp` (use `-r` and `-i`)
+- `mv` (use `-i` for interactive)
+- `rmdir`
+- `rm -r <directory>` (Delete non empty directory - `-rf` for force remove)
+- `rm -r -i /tmp/testdir` (Interactive)
+- `hostname`
+- `id`
+- `locate`
+- `wc` (Counts the number of lines, e.g. `wc -l <filename>`)
+- `wget` (e.g. `wget <url>`)
+- `whoami` - Displays username
+- `w` - Shows who is logged in and what they're doing
+- `netdiscover` (e.g. `netdiscover -r 192.168.100.0/24`)
+- `head -[n] <filename>` (First `n` lines of a file)
+- `tail -[n] <filename>` (Last `n` lines of a file)
+- `tail -f` (Follow the end of a changing file)
+- `tree`
+- `.bash_history` (last 500 commands executed by user)
+- `cat .bash_history`
+- `less .bash_history`
+- `head .bash_history`
+- `tail .bash_history`
+- `file <somefile>`
+- `apropos <tool>`
+- `which <tool>` (Location or path of a program)
+- `find` (e.g. `find -name *.txt`)
+- `locate` (Finds all occurrences of a file)
+- `grep` (e.g. `grep "114.119.139.198" accesss.log`)
+- `man -k <tool>`
+- `<tool> -h` or `--help`

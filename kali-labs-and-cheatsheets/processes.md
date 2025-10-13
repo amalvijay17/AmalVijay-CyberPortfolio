@@ -1,0 +1,23 @@
+# Processes
+
+- `ps` (List the processes of current session)  
+- `ps -f` (List processes with full formatting)  
+- `ps -e` (List all processes)  
+- `ps -u <username>` (List processes of username)  
+- `ps -p [PID]` (Display information for PID)  
+- `ps aux` (Processes run by other users and system processes)  
+- `top`  
+- `Ctrl + C` (Stop process)  
+- `kill [PID]` (Stop process)  
+- `kill -9 [PID]` (Force stop process)  
+- `tmux` (New terminal multiplexer)  
+- `Ctrl + b` then `d` (Detach tmux)  
+- `tmux list-sessions` (List sessions)  
+- `tmux attach` (Attach session)  
+- `nohup <command> &`  
+- `systemctl [option] [service]`  
+  - `Start`  
+  - `Stop`  
+  - `Enable`  
+  - `Disable`  
+- `crontab -e` (Edit crontabs)

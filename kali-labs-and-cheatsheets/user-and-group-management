@@ -1,0 +1,37 @@
+# User & Group Management
+
+- `sudo adduser tom` (Create user with home directory)  
+- `sudo useradd tom` (Create user without home directory)  
+- `sudo adduser tom sudo` (Adding to sudo)  
+- **OR**  
+- `sudo usermod -aG sudo tom` (Adding to sudo)  
+- `sudo deluser tom sudo` (Removing user from sudo)  
+- `sudo deluser tom` (Removing user)  
+- `sudo userdel tom` (Removing user)  
+- `deluser --remove-home tom` (Delete user `tom` and remove home directory)  
+- `cat /etc/passwd` (Information about users)  
+- `cat /etc/group` (List of groups)  
+- `addgroup cats` (Create a new group `cats`)  
+- `groups tom` (Check which groups `tom` is in)  
+- `usermod -g cats tom` (Change `tom`'s primary group to `cats`)  
+- `delgroup tom` (Delete group `tom`)  
+- `su - tom` (Switch to user `tom`)  
+- `su` (Asks root password — doesn't change PWD)  
+- `su -` (Asks root password — changes PWD to root)  
+- `sudo su` (From `tom`, asks `tom`'s password if he is in sudoers)  
+- `getent group sudo` (Users in sudo) — e.g. `sudo:x:27:kali,tom`  
+- `echo $SHELL` (Which shell currently using)  
+- `ps $$` (Which shell currently using)  
+- For switching the shell type `zsh` or `bash` (Exit the user and login back to see change)  
+- `chsh -s /usr/bin/zsh tom` (Change shell to zsh for `tom`)  
+- `chsh -s /usr/bin/bash tom` (Change shell to bash for `tom`)  
+- `id` (What user currently running)  
+- Example: `uid=1001(tom) gid=1001(tom) groups=1001(tom),27(sudo),100(users)`  
+- `exit` (To exit current prompt)  
+- `passwd` (Change password)  
+- `cat /etc/sudoers` (Who can run what)  
+- `root ALL = (ALL:ALL) ALL`  
+- `` `<user or group> <host list> = (<runas user>:<runas group>) <command list>` ``  
+- `sudo -l` (Shows which programs you can run as root)  
+- `cat /etc/passwd` (List of all users)  
+- `cat /etc/shadow` (List of all encrypted passwords)

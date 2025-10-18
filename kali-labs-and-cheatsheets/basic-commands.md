@@ -10,6 +10,7 @@
 - `touch /tmp/test-dir/file{1,2,3}.txt` (Create file1,file2,file3 in /tmp/test-dir)
 - `nano`
 - `cat`
+- `echo` (eg: `echo hello`)
 - `ls` (List directory contents)
 - `ls -l` (long listing)
 - `ls -a` (list hidden files)
@@ -25,12 +26,14 @@
 - `mv` (use `-i` for interactive) (Move/Rename)
 - `rmdir`
 - `rm -r <directory>` (Delete non empty directory - `-rf` for force remove)
+- `rm -R <directory>`
 - `rm -r -i /tmp/testdir` (Interactive) (<command> <option> <argument>)
 - `hostname`
 - `id`
 - `locate`
 - `wc` (Counts the number of lines, e.g. `wc -l <filename>`)
 - `wget` (e.g. `wget <url>`)
+- `curl`
 - `whoami` - Displays username
 - `w` - Shows who is logged in and what they're doing
 - `netdiscover` (e.g. `netdiscover -r 192.168.100.0/24`)

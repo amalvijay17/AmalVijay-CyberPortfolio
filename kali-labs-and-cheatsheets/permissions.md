@@ -17,3 +17,8 @@
 **Examples**
 - `chmod u+x somefile`  
 - `chmod a+rw somefile`
+- Executing a file
+- `nano execute`
+- `echo "Iam executable!"`
+- `chmod +x execute`
+- `./execute`

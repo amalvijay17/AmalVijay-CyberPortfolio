@@ -1,10 +1,13 @@
 # Basic Commands
 
 - `cd`
+- `cd .` (Current directory)
 - `cd ..` (Up one directory)
 - `cd ~` (Go to home directory)
 - `mkdir`
+- `mkdir -p /tmp/dir1/dir2` (Create parent directory)
 - `touch`
+- `touch /tmp/test-dir/file{1,2,3}.txt` (Create file1,file2,file3 in /tmp/test-dir)
 - `nano`
 - `cat`
 - `ls` (List directory contents)
@@ -19,10 +22,10 @@
 - `passwd` - Change password
 - `pwd` - Print working directory
 - `cp` (use `-r` and `-i`)
-- `mv` (use `-i` for interactive)
+- `mv` (use `-i` for interactive) (Move/Rename)
 - `rmdir`
 - `rm -r <directory>` (Delete non empty directory - `-rf` for force remove)
-- `rm -r -i /tmp/testdir` (Interactive)
+- `rm -r -i /tmp/testdir` (Interactive) (<command> <option> <argument>)
 - `hostname`
 - `id`
 - `locate`

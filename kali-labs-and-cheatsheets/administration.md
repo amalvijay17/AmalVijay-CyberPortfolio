@@ -4,7 +4,7 @@
 - `service apache2 start`
 - `service apache2 stop`
 - `echo "Hello Hackers" > /var/www/html/index.html`
-- `echo "Hello Hackers" > /var/www/html/download` (create file inside `/var/www/html`)
+- `echo "Hello Hackers" > /var/www/html/preview` (create file inside `/var/www/html`) (visit localhost/preview)
 - `sudo sh -c 'echo "Hello Hackers" > /var/www/html/index.html'` (as non-root)
 - `wget http://<kaliIP>/download` (download from Kali to any remote machine)
 
@@ -24,5 +24,8 @@
 
 ## Useful Windows/Linux clients
 - `putty`, `winscp` (Windows)
+From Linux Machines
+`ssh <username>@<ip>`
+Eg: `ssh user@192.168.100.3`
 - `scp` (From Linux command line)
   - Example: `scp transfer.txt kali@192.168.6.130:/home/kali`

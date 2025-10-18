@@ -9,7 +9,10 @@
 - `top`  
 - `Ctrl + C` (Stop process)  
 - `kill [PID]` (Stop process)  
-- `kill -9 [PID]` (Force stop process)  
+- `kill -9 [PID]` (Force stop process)
+  - `SIGTERM` - Kill the process, but allow it to do some cleanup tasks beforehand
+  - `SIGKILL` - Kill the process - doesn't do any cleanup after the fact
+  - `SIGSTOP` - Stop/suspend a process 
 - `tmux` (New terminal multiplexer)  
 - `Ctrl + b` then `d` (Detach tmux)  
 - `tmux list-sessions` (List sessions)  
@@ -21,3 +24,10 @@
   - `Enable`  
   - `Disable`  
 - `crontab -e` (Edit crontabs)
+- MIN(minute) 
+- HR(hour) 
+- DOM(day of month) 
+- MON(month of year) 
+- DOW(day of week) 
+- CMD(command)
+- eg: `0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/`

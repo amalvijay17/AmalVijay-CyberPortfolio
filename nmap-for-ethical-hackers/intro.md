@@ -23,3 +23,5 @@
 - `tcp.port==25` — example where port appears filtered: you may see SYN and retransmissions but no SYN-ACK or RST.
 - Closed port — typically returns RST.
 - Filtered port — may be blocked by a firewall (no RST or SYN-ACK), or filtered on the endpoint.
+
+**Scan as tightly as you can**

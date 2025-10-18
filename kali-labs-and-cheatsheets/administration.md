@@ -24,8 +24,8 @@
 
 ## Useful Windows/Linux clients
 - `putty`, `winscp` (Windows)
-From Linux Machines
-`ssh <username>@<ip>`
-Eg: `ssh user@192.168.100.3`
+- From Linux Machines
+- `ssh <username>@<ip>`
+  - Example: `ssh user@192.168.100.3`
 - `scp` (From Linux command line)
   - Example: `scp transfer.txt kali@192.168.6.130:/home/kali`

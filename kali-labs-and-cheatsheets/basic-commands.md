@@ -5,9 +5,9 @@
 - `cd ..` (Up one directory)
 - `cd ~` (Go to home directory)
 - `mkdir`
-- `mkdir -p /tmp/dir1/dir2` (Create parent directory)
+- `mkdir -p /tmp/dir1/dir2` (Create parent directory) (<command> <option> <argument>)
 - `touch`
-- `touch /tmp/test-dir/file{1,2,3}.txt` (Create file1,file2,file3 in /tmp/test-dir)
+- `touch /tmp/test-dir/file{1,2,3}.txt` (Create file1,file2,file3 in /tmp/test-dir) 
 - `nano`
 - `cat`
 - `echo` (eg: `echo hello`)
@@ -27,10 +27,8 @@
 - `rmdir`
 - `rm -r <directory>` (Delete non empty directory - `-rf` for force remove)
 - `rm -R <directory>`
-- `rm -r -i /tmp/testdir` (Interactive) (<command> <option> <argument>)
 - `hostname`
-- `id`
-- `locate`
+- `id` (User identity information)
 - `wc` (Counts the number of lines, e.g. `wc -l <filename>`)
 - `wget` (e.g. `wget <url>`)
 - `curl`
@@ -50,7 +48,9 @@
 - `apropos <tool>`
 - `which <tool>` (Location or path of a program)
 - `find` (e.g. `find -name *.txt`)
+- `find / -name rockyou.txt.gz 2>/dev/null` (Redirect errors)
 - `locate` (Finds all occurrences of a file)
+- `locate` (Uses database - sudo updatedb)
 - `grep` (e.g. `grep "114.119.139.198" accesss.log`)
 - `man -k <tool>`
 - `<tool> -h` or `--help`

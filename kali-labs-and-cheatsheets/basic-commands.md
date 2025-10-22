@@ -5,7 +5,8 @@
 - `cd ..` (Up one directory)
 - `cd ~` (Go to home directory)
 - `mkdir`
-- `mkdir -p /tmp/dir1/dir2` (Create parent directory) (<command> <option> <argument>)
+- `mkdir -p /tmp/dir1/dir2` (Create parent directory)
+- <command> <option> <argument> (Format of command)
 - `touch`
 - `touch /tmp/test-dir/file{1,2,3}.txt` (Create file1,file2,file3 in /tmp/test-dir) 
 - `nano`

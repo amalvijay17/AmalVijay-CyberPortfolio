@@ -5,7 +5,8 @@
 - `ps -e` (List all processes)  
 - `ps -u <username>` (List processes of username)  
 - `ps -p [PID]` (Display information for PID)  
-- `ps aux` (Processes run by other users and system processes)  
+- `ps aux` (Processes run by other users and system processes)
+- `systmd` (Service manager of linux - PID:1)
 - `top`  
 - `Ctrl + C` (Stop process)  
 - `kill [PID]` (Stop process)  

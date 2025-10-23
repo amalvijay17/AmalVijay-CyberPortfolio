@@ -6,7 +6,7 @@
 - `echo "Hello Hackers" > /var/www/html/index.html`
 - `echo "Hello Hackers" > /var/www/html/preview` (create file inside `/var/www/html`) (visit localhost/preview)
 - `sudo sh -c 'echo "Hello Hackers" > /var/www/html/index.html'` (as non-root)
-- `wget http://<kaliIP>/download` (download from Kali to any remote machine)
+- `wget http://<kaliIP>/preview` (download from Kali to any remote machine)
 
 ## Quick Python web server
 - `python3 -m http.server` (Ctrl + C to quit)

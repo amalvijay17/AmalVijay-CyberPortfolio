@@ -11,6 +11,7 @@
 - `apt-get update` — Update package lists (`apt update`)  
 - `apt-get upgrade` — Upgrade all upgradable packages (`apt upgrade`)  
 - `apt-get dist-upgrade` — Full system upgrade (`apt full-upgrade`)  
-- `dpkg -l` — List installed packages  
+- `dpkg -l` — List installed packages
+- `dpkg -l | grep '^ii'` (Shows installed packages)
 - `dpkg -i package.deb` — Install `.deb` package  
 - `dpkg -r package.deb` — Remove `.deb` package

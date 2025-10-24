@@ -29,9 +29,9 @@
     - `-Pn`: skip host discovery (no ICMP echo, TCP SYN ping, or ARP ping, treat host as up and do port scannning)  
     - `--disable-arp-ping`: skip ARP ping (useful on local networks)
 
-- Pn (No Ping, Treat All Hosts as Online)
-- PS (TCP SYN ping)
-- sn (Ping Scan/Host Discovery Only)
+- -Pn (No Ping, Treat All Hosts as Online)
+- -PS (TCP SYN ping)
+- -sn (Ping Scan/Host Discovery Only)
 
 - **Host discovery vs port scanning**
   - `nmap -sn 192.168.100.0/24` — Ping scan / host discovery only: determines which hosts are up; **does NOT** list open ports.

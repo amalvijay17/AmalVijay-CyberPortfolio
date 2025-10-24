@@ -26,10 +26,10 @@
   - `nmap -p 80,443 -sU scanme.nmap.org` — UDP scan of specified ports.
   - `nmap -p 80,443 -sU -Pn --disable-arp-ping scanme.nmap.org`  
     - `-sU`: UDP only  
-    - `-Pn`: skip host discovery (no ICMP echo, TCP SYN ping, or ARP ping, treat host as up and do port scannning)  
+    - `-Pn`: (no ICMP echo ping request/response, Timestamp request/response, TCP SYN ping, or ARP ping)  
     - `--disable-arp-ping`: skip ARP ping (useful on local networks)
 
-- -Pn (No Ping, Treat All Hosts as Online)
+- -Pn (No Ping, Treat All Hosts as Online and do port scan)
 - -PS (TCP SYN ping)
 - -sn (Ping Scan/Host Discovery Only)
 

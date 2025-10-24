@@ -28,7 +28,7 @@
     - `-sU`: UDP only  
     - `-Pn`: skip host discovery (no ICMP echo, TCP SYN ping, or ARP ping, treat host as up and do port scannning)  
     - `--disable-arp-ping`: skip ARP ping (useful on local networks)
-    - 
+
 - Pn (No Ping, Treat All Hosts as Online)
 - PS (TCP SYN ping)
 - sn (Ping Scan/Host Discovery Only)

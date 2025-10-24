@@ -26,8 +26,12 @@
   - `nmap -p 80,443 -sU scanme.nmap.org` — UDP scan of specified ports.
   - `nmap -p 80,443 -sU -Pn --disable-arp-ping scanme.nmap.org`  
     - `-sU`: UDP only  
-    - `-Pn`: skip host discovery (treat host as up)  
+    - `-Pn`: skip host discovery (no ICMP echo, TCP SYN ping, or ARP ping, treat host as up and do port scannning)  
     - `--disable-arp-ping`: skip ARP ping (useful on local networks)
+    - 
+- Pn (No Ping, Treat All Hosts as Online)
+- PS (TCP SYN ping)
+- sn (Ping Scan/Host Discovery Only)
 
 - **Host discovery vs port scanning**
   - `nmap -sn 192.168.100.0/24` — Ping scan / host discovery only: determines which hosts are up; **does NOT** list open ports.
@@ -35,6 +39,7 @@
 
 - **Local vs Internet discovery differences**
   - ARP-based discovery works only on the same LAN. For public IPs Nmap uses ICMP, TCP pings and other probes.
+
 
 - **OS fingerprinting and aggressive scans**
   - `nmap -O 192.168.100.3` — OS detection: sends crafted TCP/IP probes to fingerprint the target stack.

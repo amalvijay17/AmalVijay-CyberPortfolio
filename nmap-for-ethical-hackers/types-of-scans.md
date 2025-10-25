@@ -57,6 +57,7 @@ Wireshark clues: TCP window small/unusual (e.g., Window: 1024) and specific MSS 
 - Responses:
   - No response → **open|filtered**
   - `RST` → **closed**
+- Firewall dropped the RST so the state is open|filtered
 - Use: stealthy evasion; results can be ambiguous.
 
 **Xmas Scan**  
@@ -65,6 +66,7 @@ Wireshark clues: TCP window small/unusual (e.g., Window: 1024) and specific MSS 
 - Responses:
   - No response → **open|filtered**
   - `RST` → **closed**
+- Firewall dropped the RST so the state is open|filtered 
 - Use: stealthy on systems that follow RFC 793 (older Unix-like hosts).
 
 **FIN Scan**  
@@ -73,6 +75,7 @@ Wireshark clues: TCP window small/unusual (e.g., Window: 1024) and specific MSS 
 - Responses:
   - No response → **open|filtered**
   - `RST` → **closed**
+- Firewall dropped the RST so the state is open|filtered
 - Use: quiet recon against non-Windows systems.
 
 **ACK Scan**  

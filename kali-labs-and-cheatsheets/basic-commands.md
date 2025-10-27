@@ -11,6 +11,7 @@
 - `touch /tmp/test-dir/file{1,2,3}.txt` (Create file1,file2,file3 in /tmp/test-dir) 
 - `nano`
 - `cat`
+- `strings`
 - `echo` (eg: `echo hello`)
 - `ls` (List directory contents)
 - `ls -l` (long listing)

@@ -56,3 +56,4 @@
 - `grep` (e.g. `grep "114.119.139.198" accesss.log`)
 - `man -k <tool>`
 - `<tool> -h` or `--help`
+- `uname` (Display system information)
